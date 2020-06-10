@@ -1,0 +1,136 @@
+.training-section {
+}
+
+.training-section-header {
+    display: flex;
+    margin:0;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding:0;
+    justify-content: space-between;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.training-section-title {
+    margin:0;
+    padding:0;
+    font-size: 1.5em;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.training-section-container {
+    height: 13em;
+    margin: 5px;
+    height: 35vh;
+    min-height: 13em;
+    overflow: hidden;
+}
+
+.training-items {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+.training-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+    height: 80px;
+    margin:5px;
+    padding:0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #ffffff;
+    border-radius: 5px;
+
+    border: 1px solid rgb(94, 189, 99);
+}
+
+.training-item-title {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.training-item-name{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin:0;
+    padding:0;
+}
+
+.training-item-detail {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin:0;
+    padding:0;
+}
+
+.training-icon {
+    display: flex;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 5px;
+    color:white;
+    background-color: rgb(94, 189, 99);
+}
+
+
+
+
+
+
+.training-item-inverted {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 300px;
+    height: 80px;
+    margin:5px;
+    padding:0;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(94, 189, 99);
+    border-radius: 5px;
+
+    border: 1px solid rgb(94, 189, 99);
+}
+
+.training-item-name-inverted{
+    font-size: 1.5em;
+    font-weight: 600;
+    margin:0;
+    padding:0;
+    color: white;
+}
+
+.training-item-detail-inverted {
+    font-size: 0.9em;
+    font-weight: 400;
+    margin:0;
+    padding:0;
+    color: white;
+}
+
+.training-icon-inverted {
+    display: flex;
+    margin-right: 10px;
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    border-radius: 5px;
+    color:rgb(94, 189, 99);;
+    background-color: white;
+}
